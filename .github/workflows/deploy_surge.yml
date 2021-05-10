@@ -35,5 +35,5 @@ jobs:
       - name: Install Surge
         run: npm install -g surge
       - name: run Surge
-        run: surge ./ nadirbootcampd.surge.sh --token ${{secrets.Surge_Token}}
+        run: surge ./ nadirbootcampe.surge.sh --token ${{secrets.SURGE_TOKEN}}
       
